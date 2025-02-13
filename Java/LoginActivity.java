@@ -1,4 +1,4 @@
-package com.newpackage.edustuskreatapp;
+package com.newpackage.xxx;
 
 import android.Manifest;
 import android.app.NotificationManager;
@@ -348,7 +348,7 @@ public class LoginActivity extends AppCompatActivity {
         try {
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress(username));
-            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("omasäpö, omasäpö2"));
+            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("xxx, xxx2"));
             message.setSubject("Käyttäjätunnuksen lisäys " + storeName);
 
             StringBuilder messageBuilder = new StringBuilder();
